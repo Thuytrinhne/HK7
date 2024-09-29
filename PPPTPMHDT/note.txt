@@ -1,0 +1,4 @@
+- xin phép nghỉ ít trước 1 ngày (trừ đau khan cap)
+- 5-7 function chính (quản lý phân quyền, báo cáo report 	+ khoảng 5 chức năng chính của hệ thonngs) đủ mô phỏng môn học thuii 
+- tuần sau random mẫu đề tài để review 
+- Nhom30_DacTaYeuCau : naming convention 

@@ -1,0 +1,9 @@
+Cloud computing 
+loại dịch vụ: GG, AWS, --> AZ (bt qua trinh + do an)
+Rubik qua trinh 
+PBI
+web (API, frontend, technologies)  (k co ETL) +   phan tich du lieu (ETL)
+web( seed du lieu vai mb)
+Rubik bài tập đồ án (web bên trái - phần hiện thực)
+
+

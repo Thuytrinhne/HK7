@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Split Background with Centered Div</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body,
+            html {
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(
+                    to right,
+                    black 59.9%,
+                    white 59.9%,
+                    white 40.1%,
+                    red 60.1%
+                );
+            }
+
+            /* Keyframes cho nền */
+            @keyframes backgroundShift {
+                0% {
+                    background-position: 0% 50%;
+                }
+                50% {
+                    background-position: 100% 50%;
+                }
+                100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+            .main {
+                width: 40%;
+                margin: 0 auto;
+                background-color: #000000;
+                border-top: 4px red solid;
+                color: whitesmoke;
+                /* Animation fade-in */
+                opacity: 0;
+                animation: fadeIn 2s forwards;
+            }
+
+            /* Keyframes cho fade-in */
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                }
+            }
+
+            .header {
+                margin-bottom: 20px;
+            }
+
+            .header img {
+                width: 100%;
+                height: auto;
+                /* Animation lắc nhẹ */
+                animation: shake 3s infinite;
+            }
+
+            /* Keyframes cho shake */
+            @keyframes shake {
+                0% {
+                    transform: rotate(0deg);
+                }
+                25% {
+                    transform: rotate(2deg);
+                }
+                50% {
+                    transform: rotate(0deg);
+                }
+                75% {
+                    transform: rotate(-2deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                }
+            }
+
+            .content {
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+
+            .footer {
+                font-size: 0.7em;
+                margin-top: 100px;
+                margin-bottom: 40px;
+            }
+
+            .footer-opacity {
+                opacity: 0.7;
+            }
+
+            a {
+                color: #ff0000;
+                position: relative;
+                transition: color 0.3s, transform 0.3s;
+            }
+
+            /* Hover effect cho liên kết */
+            a:hover {
+                color: #ff4d4d;
+                transform: translateY(-2px);
+            }
+
+            .text-container {
+                width: 70%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <img
+                    src="/images/banner.gif"
+                    alt="Excite@Home - The Leader in Broadband"
+                />
+            </div>
+            <div class="text-container">
+                <div class="content">
+                    <p>
+                        Excite@Home <a href="#">Reduces workforce</a> as
+                        opration wind down.
+                    </p>
+                    <br />
+                    <p>
+                        Excite@Home Announces AT&T
+                        <a href="#"
+                            >Termination of Pending Asset Purchase Agreement</a
+                        >
+                        and Transition Agreement with Several Cable Companies
+                    </p>
+                    <br />
+                    <p><a href="#">Archived press release</a></p>
+                    <br />
+                    <p>
+                        <strong>Vendor Information:</strong><br />
+                        Excite@Home has established a Vendor Information Hotline
+                        to answer questions you may have regarding the company's
+                        recent filing for reorganization. For information please
+                        call (650)556-2868 or email
+                        <a href="mailto:Vendor_Communications@excitehome.net"
+                            >Vendor_Communications@excitehome.net.</a
+                        >
+                    </p>
+                    <br />
+                    <p>
+                        <strong> <img src="/images/@work.gif" alt="" /></strong
+                        ><br />
+                        <a href="http://Work.home.net">http://Work.home.net/</a>
+                        with high-speed, fully managed data services designed to
+                        meet the demand for superior, reliable, and secure
+                        network communications.
+                    </p>
+                </div>
+                <div class="footer">
+                    <p>
+                        <span class="footer-opacity">
+                            Copyright © 1995-2002 At Home Corporation All Right
+                            Reserved. @ Home, Excite@Home, @Work, Excite and
+                            <img src="/images/@.gif" alt="" /> are the
+                            trademarks of At Home Corporation, and may be
+                            registered in certain jurisdictions.
+                        </span>
+                        <a href="#">Legal Notices</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

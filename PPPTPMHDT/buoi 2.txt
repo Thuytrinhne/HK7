@@ -1,0 +1,41 @@
+business -> nghiep vu 
+===
+3 thành phần của phần mềm :
+giao tiếp, xử lý, lưu trữ 
+=== 
+các loại phần mềm:
+Phần mềm hệ thống:
+
+Là phần mềm giúp quản lý phần cứng và cung cấp nền tảng cho các phần mềm ứng dụng hoạt động.
+Ví dụ: Hệ điều hành (Windows, macOS, Linux), trình điều khiển (driver).
+Phần mềm ứng dụng:
+
+Là các chương trình được phát triển để giúp người dùng thực hiện các công việc cụ thể.
+Ví dụ: Microsoft Word (soạn thảo văn bản), Adobe Photoshop (chỉnh sửa hình ảnh), Google Chrome (trình duyệt web).
+Phần mềm lập trình:
+
+Là phần mềm được sử dụng để tạo ra các phần mềm khác. Chúng cung cấp các công cụ cần thiết cho lập trình viên để viết mã nguồn và phát triển ứng dụng.
+Ví dụ: Visual Studio, Eclipse, Code::Blocks.
+===
+Chất lượng phần mềm
+Dưới góc nhìn 
++ người sử dung:
+- Tính đúng đắn 
+- Tính tiện dung
+- Tính hiệu quả
+- Tính tương thích
+- Tính tiến hóa
+
++ lập trình viên
+-
+-
+-
+
+===
+deadline:
+
+sách c2 c3 : phân tichs sự pp truyền thống + OOps
+
+Nhóm 13,14 câu 7 
+chủ nhật: sửa lại file word đồ án
+

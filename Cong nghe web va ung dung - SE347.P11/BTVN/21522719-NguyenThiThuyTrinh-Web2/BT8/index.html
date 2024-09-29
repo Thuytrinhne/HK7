@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Khuyến mãi dầu gội Double Rich</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #8b0000;
+                color: white;
+                background-image: url("/images/rose.png"),
+                    url("/images/kim-tea-hee.png"),
+                    url("/images/nen-hoa-hong.png");
+                background-position: 172px 520px, 72px 85px, 780px 270px;
+                background-size: auto, auto, 50% auto;
+                background-repeat: no-repeat, no-repeat, no-repeat;
+            }
+            .container {
+                margin: 0 auto;
+                width: 51%;
+                margin-top: 72px;
+                border: 1px solid;
+                margin-left: 26%;
+                overflow: hidden; /* Giới hạn hiển thị trong container */
+                position: relative; /* Để sử dụng vị trí tuyệt đối cho tiêu đề */
+            }
+            .header {
+                background-color: #ff0000;
+                width: 68%;
+                font-size: 24px;
+                font-weight: bold;
+                display: inline-block;
+                text-align: right;
+                padding: 20px 10px;
+            }
+
+            .moving-title {
+                text-align: center;
+                font-size: 30px;
+                animation: textMove 10s linear infinite; /* Thêm animation cho tiêu đề */
+            }
+
+            @keyframes textMove {
+                0% {
+                    transform: translateX(100%); /* Bắt đầu từ bên phải */
+                }
+                50% {
+                    transform: translateX(0); /* Ở giữa màn hình */
+                }
+                100% {
+                    transform: translateX(-100%); /* Kết thúc ở bên trái */
+                }
+            }
+
+            .content {
+                display: inline-flex;
+                padding: 20px;
+            }
+
+            .product-image {
+                text-align: center;
+                margin-top: 20px;
+                animation: fadeIn 1s ease-in; /* Animation cho hình ảnh */
+            }
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+
+            h3 {
+                margin-top: 20px;
+                color: #f00001;
+                display: flex;
+                animation: slideIn 0.5s ease; /* Animation cho tiêu đề */
+            }
+
+            @keyframes slideIn {
+                from {
+                    transform: translateY(-20px);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+
+            ul,
+            ol {
+                margin-left: 20px;
+            }
+            .header-container {
+                background-color: #f4c4f4;
+            }
+            h1 {
+                text-align: center;
+                padding: 19px;
+                margin: 0 auto;
+                color: #f00001;
+            }
+            .float-right {
+                float: right;
+                width: 11rem;
+                margin: 10px;
+            }
+            .icon {
+                font-size: 20px;
+                padding-right: 5px;
+            }
+            li {
+                color: #f4c4f4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+                class="float-right product-image"
+                src="/images/qua-tang-doublerich.png"
+                alt=""
+            />
+            <div class="header-container">
+                <div class="header">Công nghệ đầu gội dưỡng tóc mới</div>
+                <br />
+                <h1 class="moving-title">Tỏa sáng cùng DOUBLE RICH</h1>
+                <!-- Áp dụng animation cho tiêu đề -->
+            </div>
+
+            <div class="content">
+                <div class="left-column">
+                    <h3>
+                        <span class="material-symbols-outlined icon"
+                            >check_box_outline_blank</span
+                        >Sản phẩm khuyến mãi :
+                    </h3>
+                    <ul>
+                        <li>
+                            Dầu gội Double Rich mới 200ml, 400ml có tem khuyến
+                            mãi
+                        </li>
+                    </ul>
+                    <h3>
+                        <span class="material-symbols-outlined icon"
+                            >check_box_outline_blank</span
+                        >
+                        Đối tượng tham gia :
+                    </h3>
+                    <ul>
+                        <li>
+                            Áp dụng cho tất cả người tiêu dùng cuối cùng mua sản
+                            phẩm khuyến mãi.
+                        </li>
+                        <li>
+                            Chương trình không áp dụng cho nhân viên, nhà phân
+                            phối bao gồm các tổng đại lý, đại lý, cửa hàng bán
+                            sỉ, lẻ và các cá nhân kinh doanh sản phẩm của công
+                            ty LDMP LG Vina, công ty quảng cáo, công ty làm dịch
+                            vụ chương trình khuyến mãi này, nhân viên siêu thị.
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>
+                        <span class="material-symbols-outlined icon"
+                            >check_box_outline_blank</span
+                        >
+                        Cách thức nhận giải :
+                    </h3>
+                    <ol>
+                        <li>
+                            <i><b>Giải khuyến khích :</b></i> Khách hàng đổi quà
+                            tại các cửa hàng bán lẻ trên toàn quốc. Bắt đầu từ
+                            ngày 15/06/2005 đến 17h ngày 12/08/2005.
+                        </li>
+                        <li>
+                            <i><b> Giải đặc biệt, nhất, nhì :</b></i> khách hàng
+                            cắt phần mã vạch trên mỗi chai dầu gội có khuyến mãi
+                            và gởi kèm phiếu trúng thưởng về văn phòng công ty,
+                            hạn chót đến hết ngày 31/07/2005 (căn cứ theo dấu
+                            bưu điện nơi gởi). Sau đó công ty sẽ gởi thư thông
+                            báo trúng thưởng và cách thức nhận quà cho khách
+                            hàng.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

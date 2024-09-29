@@ -1,0 +1,28 @@
+requirements workflow : determine  the client’s needs.
+understanding of the domain. (sufficient depth)  -> build the initial business model. (UML diagrams) ( understand clien's requirement -> understand more domain -> refine business model (iteration until we is satisfi ed with the set of requirements.
+describe the client’s business processes. 
+the specifi c environmentin which the target product is to operate.
+Requirement workflow 
+1. Thu thập yêu cầu
+- Phỏng vấn
+- Khảo sát tài lieu 
+- Cuộc gọi
+- JAD: face to face between parties
+- Ghi âm, ghi hình
+- Survey 
+- Quan sát 
+2. Khám phá, làm rõ yêu cầu
+- Xác định glossary (Domain understanding )
+- Xác định các yêu cầu cơ sở ban đầu
+3. Build business model 
+- Build usecase model UML có 5 model 
+- Lặp lại việc làm rõ yêu cầu và refine BM 
+4. Confirmation
+srs
+usecase ( ds actors  , ds usecase + đặc tả usecase )
+actor: phần cứng, phần mem, con nguoi -> actor là bên ngoài hệ thống có liên quan đến hệ thonns ( máy in, nhân viên)
+hệ thống ngân hang -> server (bên trong) 
+hệ thống các máy ATM -> bên ngoài
+ 
+
+

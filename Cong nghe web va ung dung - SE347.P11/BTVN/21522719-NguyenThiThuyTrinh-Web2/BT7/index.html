@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chương trình học thiết kế đồ họa</title>
+
+        <style>
+            /* General Styles */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f9f9f9;
+                background-image: url(/images/truong_day_thiet_ke_do_hoa.jpg);
+                background-repeat: no-repeat;
+                background-position: 222px 298px;
+                position: relative; /* Đặt vị trí relative để background ở trên */
+                z-index: 1000;
+            }
+
+            header {
+                background-image: url("/images/nguyen-tac-trong-thiet-ke-do-hoa.jpg");
+                background-repeat: repeat-x;
+                background-size: contain;
+                height: 106px;
+            }
+
+            h1 {
+                font-size: 31px;
+                color: #00ff01;
+                background-color: white;
+                padding: 10px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+
+                position: relative; /* Để điều chỉnh vị trí */
+                animation: textMove 10s linear infinite; /* Di chuyển liên tục, tuyến tính */
+                white-space: nowrap; /* Đảm bảo chữ không bị ngắt dòng */
+            }
+            @keyframes textMove {
+                0% {
+                    transform: translateX(
+                        -100%
+                    ); /* Bắt đầu ngoài khung từ bên trái */
+                }
+                45% {
+                    transform: translateX(0); /* Vào giữa màn hình */
+                }
+
+                100% {
+                    transform: translateX(
+                        100%
+                    ); /* Kết thúc ngoài khung ở bên phải */
+                }
+            }
+
+            /* Banner with pencils */
+            .pencil-banner {
+                position: relative;
+                text-align: center;
+            }
+
+            .pencil-image {
+                width: 100%;
+                height: auto;
+            }
+
+            .pencil-banner h1 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                padding: 5px 10px;
+            }
+
+            /* Table Section */
+            .table-section {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+
+            .design-table {
+                width: 34%;
+                border: 6px solid #00ff01;
+                background: white;
+                font-size: 16px;
+                height: 355px;
+                position: relative;
+                z-index: 1; /* Đặt bảng nằm dưới background image */
+                background: rgba(
+                    255,
+                    255,
+                    255,
+                    0.01
+                ); /* Đặt bảng trong suốt một phần để hiển thị ảnh nền */
+            }
+
+            .design-table th,
+            .design-table td {
+                border: 1px solid #00ff01;
+                text-align: center;
+            }
+
+            thead {
+                background-color: #00ff01;
+                color: white;
+            }
+
+            tbody tr:nth-child(even) {
+                background-color: #8ef8f8;
+            }
+            /* Set background color for odd rows */
+            tbody tr:nth-child(odd) {
+                background-color: white;
+                background: rgba(255, 255, 255, 0.1);
+            }
+            tbody tr.highlight {
+                background-color: #ff8c00;
+            }
+
+            /* Image Section */
+            .image-section {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 10%;
+            }
+
+            .pencil-holder {
+                width: 200px;
+                height: auto;
+            }
+            .design-table td:nth-child(2) {
+                text-align: left;
+            }
+            th {
+                padding: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header"></header>
+
+        <main>
+            <h1>CHƯƠNG TRÌNH HỌC THIẾT KẾ ĐỒ HỌA</h1>
+            <section class="table-section">
+                <table class="design-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">STT</th>
+                            <th rowspan="2">TÊN MÔN HỌC</th>
+                            <th colspan="2">SỐ TIẾT</th>
+                        </tr>
+                        <tr>
+                            <th>Lý thuyết</th>
+                            <th>Thực hành</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Thiết kế mẫu với CorelDraw</td>
+                            <td>30</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Thiết kế mẫu với Illustrator</td>
+                            <td>30</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Xử lý ảnh với Photoshop</td>
+                            <td>30</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mỹ thuật ứng dụng</td>
+                            <td>30</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Nghệ thuật chữ</td>
+                            <td>30</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Layout web</td>
+                            <td>30</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Thiết kế bộ nhận diện thương hiệu</td>
+                            <td>30</td>
+                            <td>60</td>
+                        </tr>
+                        <tr class="highlight">
+                            <td>8</td>
+                            <td>Khóa luận tốt nghiệp</td>
+
+                            <td></td>
+                            <td>150</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </body>
+</html>
